@@ -128,7 +128,7 @@ h2 {
 
 /* Shooting grid */
 .sec-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: clamp(32px, 6vw, 56px); }
-.sec-head h2 { margin: 0 0 0 -0.02em; }
+.sec-head h2 { margin: 0 0 0 -0.06em; }
 .sec-head p { margin: 0; max-width: 36ch; color: var(--muted); font-size: .92rem; }
 .grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(28px, 3vw, 36px) clamp(12px, 2.4vw, 28px); }
 @media (min-width: 560px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
