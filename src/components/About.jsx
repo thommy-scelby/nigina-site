@@ -12,22 +12,26 @@ export default function About() {
           style={{ objectPosition: about.position }}
           loading="lazy"
         />
-        <div>
-          <p className="label">About</p>
-          <h2>{about.heading}</h2>
-          {about.paragraphs.map((text, i) => (
-            <p key={text} className={i > 0 ? 'muted' : undefined}>
-              {text}
-            </p>
-          ))}
-          <dl className="specs">
-            {specs.map(([label, value]) => (
-              <div className="spec-row" key={label}>
-                <dt>{label}</dt>
-                <dd>{value}</dd>
-              </div>
+        <div className="about-text">
+          <div className="about-head">
+            <p className="label">About</p>
+            <h2>{about.heading}</h2>
+          </div>
+          <div className="about-body">
+            {about.paragraphs.map((text, i) => (
+              <p key={text} className={i > 0 ? 'muted' : undefined}>
+                {text}
+              </p>
             ))}
-          </dl>
+            <dl className="specs">
+              {specs.map(([label, value]) => (
+                <div className="spec-row" key={label}>
+                  <dt>{label}</dt>
+                  <dd>{value}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
         </div>
       </div>
     </section>
