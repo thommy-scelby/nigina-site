@@ -3,7 +3,7 @@ import { site } from '../data/site.js'
 import Lightbox from './Lightbox.jsx'
 
 // Millisecondi tra una foto e la successiva nelle copertine dei book.
-const SLIDE_MS = 3800
+const SLIDE_MS = 5000
 // Ogni copertina parte con un piccolo ritardo, così non cambiano tutte insieme.
 const STAGGER_MS = 1200
 
