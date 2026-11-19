@@ -14,7 +14,6 @@ function BookCard({ book, delay, onOpen }) {
 
   useEffect(() => {
     if (count < 2 || paused) return undefined
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return undefined
     let timer
     const start = setTimeout(() => {
       timer = setInterval(() => setN((v) => (v + 1) % count), SLIDE_MS)
@@ -30,8 +29,8 @@ function BookCard({ book, delay, onOpen }) {
       type="button"
       className="card"
       onClick={() => onOpen(n)}
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
+      onPointerEnter={(e) => e.pointerType === 'mouse' && setPaused(true)}
+      onPointerLeave={() => setPaused(false)}
     >
       <div className="card-ph">
         {book.frames.map((f, k) => (
