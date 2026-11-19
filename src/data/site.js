@@ -66,10 +66,11 @@ export const site = {
     ['Bust', '85 cm / 33"'],
     ['Waist', '68 cm / 27"'],
     ['Hips', '98 cm / 39"'],
-    ['Shoes', '39 EU, 8 UK, 6 US'],
+    ['Dress', '36 EU, 8 UK, 6 US'],
+    ['Shoes', '39 EU, 6 UK, 6 US'],
     ['Hair', 'Dark Brown'],
     ['Eyes', 'Dark Brown'],
-    ['Based in', '—'],
+    ['Based in', 'London'],
   ],
 
   // Shooting: each book has a cover (its first frame), a title, a credit line and its frames.
