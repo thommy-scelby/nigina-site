@@ -39,7 +39,7 @@ export const site = {
 
   // Contacts
   email: 'hello@your-domain.com',
-  instagram: { url: 'https://instagram.com/your-handle', handle: '@your-handle' },
+  instagram: { url: 'https://www.instagram.com/r.nigina.r/', handle: '@r.nigina.r' },
   representation: 'Agency name and contact, if any', // '' hides this line
 
   // Home: slideshow. `position` is the focus point of the crop (x% y%) on wide screens.
