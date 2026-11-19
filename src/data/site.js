@@ -62,13 +62,13 @@ export const site = {
 
   // Measures: [label, value]. Add, remove or reorder rows freely.
   specs: [
-    ['Height', '— cm'],
-    ['Bust', '— cm'],
-    ['Waist', '— cm'],
-    ['Hips', '— cm'],
-    ['Shoes', '— EU'],
-    ['Hair', '—'],
-    ['Eyes', '—'],
+    ['Height', '167 cm'],
+    ['Bust', '85 cm / 33"'],
+    ['Waist', '68 cm / 27"'],
+    ['Hips', '98 cm / 39"'],
+    ['Shoes', '39 EU, 8 UK, 6 US'],
+    ['Hair', 'Dark Brown'],
+    ['Eyes', 'Dark Brown'],
     ['Based in', '—'],
   ],
 
