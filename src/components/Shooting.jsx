@@ -34,7 +34,7 @@ function BookCard({ book, delay, onOpen }) {
     >
       <div className="card-ph">
         {book.frames.map((f, k) => (
-          <img key={f.thumb} src={f.thumb} alt="" loading="lazy" className={k === n ? 'on' : undefined} />
+          <img key={f.thumb} src={f.thumb} alt="" decoding="async" className={k === n ? 'on' : undefined} />
         ))}
       </div>
       <div className="cap">
